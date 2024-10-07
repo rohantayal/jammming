@@ -7,10 +7,10 @@ function App() {
       <h1>
         Ja<span className={styles.highlight}>mmm</span>ing
       </h1>
-      
-      <div>
 
-        <div>
+      <div className={styles.App}>
+
+        <div className={styles['App-playlist']}>
 
         </div>
       </div>
