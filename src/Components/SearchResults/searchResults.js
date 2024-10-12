@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./SearchResults.module.css";
+import Tracklist from "../TrackList/TrackList";
 
-function SearchResults(){
+function SearchResults(props){
     
     return (
-        <section className="SearchResults">
-
+        <section className={styles.SearchResults}>
+            <Tracklist userSearchResults={props.userSearchResults} isRemoval={false} onAdd={props.onAdd}/>
         </section>
     );
 }
