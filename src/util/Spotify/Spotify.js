@@ -1,7 +1,7 @@
 
 let accessToken;
 const clientId = "00a8d95140e84190bb1b0316ebf12133";
-const redirectUrl = encodeURIComponent("https://rohantayal.github.io/jammming/");
+const redirectUrl = "https://rohantayal.github.io/jammming/;
 
 const spotify = {
     getAccessToken() {
